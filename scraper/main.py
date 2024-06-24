@@ -1,4 +1,4 @@
-from scraper.scraper import fetch_titles
+from scraper import fetch_titles
 
 def main():
     url = 'https://www.scrapethissite.com/pages/'
