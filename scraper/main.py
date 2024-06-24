@@ -1,7 +1,7 @@
 from scraper.scraper import fetch_titles
 
 def main():
-    url = 'https://example.com/articles'
+    url = 'https://www.scrapethissite.com/pages/'
     titles = fetch_titles(url)
     for title in titles:
         print(title)
